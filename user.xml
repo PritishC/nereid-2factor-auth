@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="nereid_user_form2">
+            <field name="model">nereid.user</field>
+            <field name="inherit" ref="nereid.nereid_user_form2"/>
+            <field name="priority">20</field>
+            <field name="name">nereid_user_form2</field>
+        </record>
+
+        <record id="nereid_user_tree" model="ir.ui.view">
+            <field name="model">nereid.user</field>
+            <field name="inherit" ref="nereid.nereid_user_tree"/>
+            <field name="name">nereid_user_tree</field>
+        </record>
+  </data>
+</tryton>

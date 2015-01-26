@@ -29,8 +29,7 @@ class TestViewsDepends(unittest.TestCase):
         this method is called before each test function execution.
         """
         trytond.tests.test_tryton.install_module('twofactor_auth')
-    
-    @unittest.skip("Skipping since there are no views yet.")
+
     def test0005views(self):
         '''
         Test views.

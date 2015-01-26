@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<data>
+    <xpath expr="/tree/field[@name='company']" position="after">
+        <field name="use_twofactor_auth"/>
+    </xpath>
+</data>
